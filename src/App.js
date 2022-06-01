@@ -1,6 +1,6 @@
 import React from "react";
-// import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
+import ListItem from "./components/List/ListItem";
 
 const GlobalStyle = createGlobalStyle`
   body { 
@@ -12,7 +12,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      
+      <span>TodoList</span>
+      <ListItem />
     </>
   );
 }
