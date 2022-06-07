@@ -4,7 +4,7 @@ import ListItem from "./components/List/ListItem";
 
 const GlobalStyle = createGlobalStyle`
   body { 
-    background: #DAC8E8;
+    background: #e9ecef;
   }
   `;
 
@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
+      <TodolistBox />
       <span>TodoList</span>
       <ListItem />
     </>
