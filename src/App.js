@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <TodolistBox />
       <span>TodoList</span>
       <ListItem />
     </>
