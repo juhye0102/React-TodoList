@@ -1,17 +1,14 @@
 import React from "react";
-import { createGlobalStyle } from "styled-components";
 import ListItem from "./components/List/ListItem";
-
-const GlobalStyle = createGlobalStyle`
-  body { 
-    background: #e9ecef;
-  }
-  `;
+import GlobalStyle from "./style/GlobalStyle";
 
 function App() {
   return (
     <>
       <GlobalStyle />
+      <Container>
+        <ListTemplate />
+      </Container>
       <span>TodoList</span>
       <ListItem />
     </>
