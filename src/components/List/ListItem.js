@@ -1,7 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 
-const ListItem = () => {
-  return <div>안녕</div>;
-};
+import Item from "./Item";
 
+function ListItem() {
+  return (
+    <Container>
+      <Item />
+    </Container>
+  );
+}
 export default ListItem;
