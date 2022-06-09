@@ -7,10 +7,10 @@ import ListItem from "./ListItem";
 
 function TodoTemplate() {
   return (
-    <Container>
+    <div>
       <ListTitle>TODO LIST</ListTitle>
       <ListInsert />
       <ListItem />
-    </Container>
+    </div>
   );
 }
