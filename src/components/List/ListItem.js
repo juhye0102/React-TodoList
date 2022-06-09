@@ -1,14 +1,13 @@
 import React from "react";
-<<<<<<< HEAD
 import styled from "styled-components";
 
 import Item from "./Item";
 
 function ListItem() {
   return (
-    <Container>
+    <div>
       <Item />
-    </Container>
+    </div>
   );
 }
 =======
