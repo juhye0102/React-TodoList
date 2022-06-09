@@ -6,9 +6,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Container>
+      <div>
         <ListTemplate />
-      </Container>
+      </div>
       <span>TodoList</span>
       <ListItem />
     </>
