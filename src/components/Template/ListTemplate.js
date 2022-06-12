@@ -5,7 +5,7 @@ import ListTitle from "./ListTitle";
 import ListInsert from "./ListInsert";
 import ListItem from "./ListItem";
 
-function TodoTemplate() {
+function ListTemplate() {
   return (
     <div>
       <ListTitle>TODO LIST</ListTitle>
@@ -14,3 +14,5 @@ function TodoTemplate() {
     </div>
   );
 }
+
+export default ListTemplate;
