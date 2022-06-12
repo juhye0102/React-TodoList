@@ -10,11 +10,5 @@ function ListItem() {
     </div>
   );
 }
-=======
 
-const ListItem = () => {
-  return <div>안녕</div>;
-};
-
->>>>>>> master
 export default ListItem;
