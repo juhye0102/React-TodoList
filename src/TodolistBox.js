@@ -8,7 +8,7 @@ const TodolistBox = styled.div`
   position: relative;
   background-color: whitesmoke;
 
-  border-radius: 16px;
+  border-radius: 8px;
 `;
 
 export default TodolistBox;
