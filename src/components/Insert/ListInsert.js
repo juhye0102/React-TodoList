@@ -6,9 +6,9 @@ function ListInsert() {
     <div>
       <form>
         <h1 type="text" name="text">
-          할 일을 작성하세요.
+          Add your todolist
         </h1>
-        <input type="submit">추가</input>
+        <input type="submit">Add</input>
       </form>
     </div>
   );
