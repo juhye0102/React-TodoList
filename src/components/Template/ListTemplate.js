@@ -8,7 +8,7 @@ import ListItem from "./ListItem";
 function ListTemplate() {
   return (
     <div>
-      <ListTitle>TODO LIST</ListTitle>
+      <ListTitle>TODOLIST</ListTitle>
       <ListInsert />
       <ListItem />
     </div>
