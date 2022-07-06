@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <span>TodoList</span>
+      <span>TODOLIST</span>
       <ListItem />
     </>
   );
